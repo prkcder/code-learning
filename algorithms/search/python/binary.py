@@ -1,9 +1,10 @@
+
 def binary_search(search_list, thing_to_search):
     low = 0
     high = len(search_list) - 1
 
     search_list.sort()
-    
+
     while low < high:
         mid = int((low + high) / 2)
 
